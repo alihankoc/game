@@ -19,7 +19,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"name\": \"Alihandro KOÇ\",\n    \"surname\": \"KOÇA\",\n    \"email\": \"10a1sd@asdd.add\"\n}",
+					"raw": "{\n    \"name\": \"Alihan\",\n    \"surname\": \"KOÇ\",\n    \"email\": \"alihan@kroppa.com\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -43,7 +43,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"user_id\": 3,\n    \"game_id\": 12,\n    \"score\": 998\n}",
+					"raw": "{\n    \"user_id\": 1,\n    \"game_id\": 1,\n    \"score\": 100\n}",
 					"options": {
 						"raw": {
 							"language": "json"
