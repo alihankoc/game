@@ -1,0 +1,26 @@
+version: '3'
+services:
+    app:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        ports:
+            - "80:80"
+        working_dir: /var/www
+        volumes:
+            - ./:/var/www
+
+    database:
+        image: mysql:8.0
+        environment:
+            MYSQL_DATABASE: 'kroppa'
+            MYSQL_USER: 'kroppa'
+            MYSQL_PASSWORD: 'secret'
+            MYSQL_ROOT_PASSWORD: 'root_secret'
+        ports:
+            - "3306:3306"  # Map container port to host
+        volumes:
+            - db_data:/var/lib/mysql  # Persist MySQL data
+
+volumes:
+    db_data:
